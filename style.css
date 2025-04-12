@@ -319,7 +319,7 @@ span{
   text-align: left;
   font-size: 6rem;
   margin: 3rem 0;
-  margin-top: 8%;
+  margin-top: 6%;
   background: linear-gradient(
     270deg, #DF8908 10%, #ff0066 100%);
     background-clip: text;
@@ -333,10 +333,10 @@ span{
   width: 1030px;
 	position: block;
 	padding: 20px;
-  border-radius: 15px;
+  border-radius: 16px;
   border-left: 3px solid var(--primary-color);
 	border: 2px solid var(--primary-color);
-	background-color: #003737;
+	background-color: #011515;
 	cursor: pointer;
 	transition: all 0.4s;
 	margin-bottom: 20px;
@@ -360,8 +360,7 @@ span{
 .box{
   position: relative;
   display:inline-flex;
-  justify-content: left;
-  gap: 5rem;
+  gap: 3rem;
 }
 .box img{
   width: 25vw;
@@ -372,34 +371,36 @@ span{
 .box img:hover{
   transform: scale(1.05);
 }
-.box h4{
-  font-size: 1.8rem;
-  margin-top: 85px;
-  letter-spacing: 0.2rem;
-  text-decoration: none;
-  font-weight: 400;
-	color: var(--text-color);
+.content{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.box h3{
-	font-size: 12;
-  text-align: center;
-	padding: 10px 0px 6px;
-	font-family: helvetica;
-	color: var(--text-color);
-}
-.box h5{
-  font-size: 15px;
-	padding: 10px 0px 6px;
-	font-family: helvetica;
-	color: var(--text-color);
-}
-.box h2{
+.content h2{
+  font-size: 1.7rem;
+  font-weight: 800;
   color: var(--text-color);
 }
-.box p{
-	line-height: 1.2;
-	color: var(--text-color);
-	font-size: 10px;
+.content h3{
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+.content h4{
+  font-size: 1.9rem;
+  color: var(--text-color);
+}
+.content p{
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+.content .read-more{
+  align-items: right;
+  text-align: right;
+  margin-left: 75%;
+  gap: 2rem;
 }
 /* Education Section Ended  */
 
@@ -536,12 +537,23 @@ span{
 
 /* Contact Section Started */
 .contact{
-  background-color: #002a2a;
+  background-color: #002020;
 }
-.heading h2{
-  font-size: 7rem;
-  margin-bottom: 3rem;
-  color: var(--primary-color);
+.contact-heading{
+  text-align: center;
+  font-size: 5rem;
+  margin: 5rem 0;
+  background: linear-gradient(
+    270deg, #DF8908 10%, #ff0066 100%);
+    background-clip: text;
+    color: transparent;
+}
+.contact-heading:hover{
+  background: linear-gradient(
+    270deg, #DF8908 50%, #ff0066 50%);
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.05);
 }
 .contact form{
   display: flex;
