@@ -423,32 +423,15 @@ section{
     transform: scale(1.05);
 }
 .skills-container{
-}
-.skills-container h2{
-  text-align: center;
-  align-items: center;
-  padding: 0.5rem;
-  font-size: 2.5rem;
-  background-color: var(--fourth-color);
-  border: 2.5px solid var(--primary-color);
-  border-radius: 25rem;
-}
-.skills-container h2:hover{
-  background-color: var(--second-color);
-  border: 2.5px solid var(--fourth-color);
-}
-.skills-container p{
-  padding: 3rem;
-  text-align: center;
-  align-items: center;
-  font-size: 2.5rem;
-  font-weight: 500;
-  letter-spacing: 3px;
+  display: flex;
+  position: relative;
+  min-height: 1100px;
+  min-height: 600px;
+  z-index: 100;
 }
 
-.skills-box h1{
 
-}
+
 /* Service Section Ended  */
 
 /* Project Section Started */
@@ -588,10 +571,14 @@ section{
 .submit-form i{
   font-size: 2.5rem;
   font-weight: 650;
-  color: var(--text-color);
+  background: linear-gradient(
+    270deg, #DF8908 10%, #ff0066 100%);
+    background-clip: text;
+    color: transparent;
 }
 .submit-form i:hover{
-  color: var(--second-color);
+  color: #ffecc5;
+  transform: scale(1.2);
 }
 form{
   padding: 0 50px;
@@ -647,14 +634,62 @@ textarea.input{
 }
 /* Contact Section Ended */
 
-
-
 /* Footer Section Started */
-
+.footer{
+  background: var(--bg-color);
+  position: absolute;
+  width: 100%;
+  min-height: 50px;
+  padding-top: 5%;
+  padding: 1.7rem 10%;
+} 
+.footer-content p{
+  font-size: 1.8rem;
+  padding-left: 1.2rem;
+}
+.footer-content span{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.footer-content i{
+  color: #ff0000;
+}
+.footer-content i:hover{
+  background: linear-gradient(
+    270deg, #ff0000 10%, #ff0066 100%);
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.5);
+}
+.border-bottom{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1.8px solid var(--primary-color);
+  text-align: center;
+  /* padding: 10px 0; */
+  margin-top: 15px; 
+}
+.border-bottom:hover{
+  transform: scale(1.2);
+  border: 1.8px solid var(--second-color);
+}
+.border-content p{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.border-content i{
+  font-size: 1.5rem;
+  background: linear-gradient(
+    270deg, #ff0000 10%, #ff0066 100%);
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.5);
+    padding: 5px;
+}
+.border-content i:hover{
+  color: #ff0000;
+  transform: scale(1.5);
+}
 /* Footer Section Ended */
-
-
-
-/* Responsive Design Started */
-
-/* Responsive Design Ended */
