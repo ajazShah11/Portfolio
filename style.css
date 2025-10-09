@@ -6,7 +6,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "uber", sans-serif;
 }
 html {
   font-size: 60%;
@@ -92,7 +92,8 @@ span{
   padding: 1%;
   border-radius: 3.5rem;
   color: var(--text-color);
-  background: linear-gradient(#ff00af);
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
     cursor: pointer;
     letter-spacing: 1px;
     transition: 0.3s ease-in-out;
@@ -104,10 +105,6 @@ span{
   background: linear-gradient(270deg, #ffcc00 10%,#ff00af 100%);
   box-shadow: 0 0 30px var(--primary-color), 0 0 25px var(--second-color);
 }
-
-
-
-
 
 section{
   min-height: 100vh;
@@ -174,22 +171,22 @@ section{
   box-shadow: 0 0 25px var(--primary-color);
 }
 .social-icons a:nth-child(1){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(2){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(3){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(4){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(5){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(6){
-  border: 2px solid #556571;
+  border: 2.5px solid #556571;
 }
 .social-icons a:nth-child(1):hover{
   background: #463f3f;  
@@ -202,7 +199,8 @@ section{
   box-shadow: 0 0 50px #0077B5;
 }
 .social-icons a:nth-child(3):hover{
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background: linear-gradient(360deg, #FF7A00 0%, #FF0069 10%, #7638FA 100%);
   border: 2px solid var(--primary-color);
   box-shadow: 0 0 50px var(--primary-color);
 }
@@ -234,7 +232,6 @@ section{
   border: 1.5px solid var(--primary-color);
   border-radius: 10rem;
   box-shadow: 0 0 25px var(--primary-color) 0 0 50px var(--second-color);
-  background: var(--primary-color);
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -244,56 +241,29 @@ section{
     270deg, #ffcc00 10%, #ff00af 100%);
   box-shadow: 0 0 20px var(--primary-color), 0 0 20px var(--second-color);
 }
+.btn-group a:nth-of-type(1){
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+}
+
 .btn-group a:nth-of-type(2){
   background-color: transparent;
   color: var(--text-color);
-  border: 2px solid var(--primary-color);
-  box-shadow: 0 0 25px transparent;
+  border: 2.5px solid var(--primary-color);
+  box-shadow: 0 0 25px transparent; 
 }
 .btn-group a:nth-of-type(2):hover{
-  box-shadow: 0 0 25px var(--primary-color) 0 0 50px var(--second-color);
-  background-color: var(--primary-color);
-  color: var(--text-color);
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  color: var(--text-color); 
 }
 /* Home Section Ended */
-.hamburger{
-    display: none;
-    align-items: center;
-    font-size: 30px;
-    margin-right: 12px;
-    cursor: pointer;
-}
 
 
-/* Hamburger Menu Design Started */
-@media only screen and (max-width: 600px){
-    .navbar{
-        display: none;
-    }
-    .navbar a{
-        margin: 10px 0;
-    }
-    .hamburger{
-        display: flex;
-        cursor: pointer;
-    }
-    .showData{
-        top: 15%;
-        width: 60%;
-        height: 250px;
-        display: flex;
-        position: absolute;
-        padding: 0;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        background-color: #333635;
-        border-radius: 3rem;
-    }
-}
+/* Hamburger Menu Design started */
+
+
 /* Hamburger Menu Design Ended */
-
 
 
 /* About Section Started */
@@ -2095,6 +2065,7 @@ textarea.input{
 .submit-btn{
   padding-top: 25%;
   padding-left: 10%;
+
 }
 /* Contact Section Ended */
 
@@ -2169,8 +2140,6 @@ textarea.input{
   color: #ff0000;
   transform: scale(1.5);
 }
-
-
 /* Footer Section Ended */
 
 
