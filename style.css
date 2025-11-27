@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +10,6 @@
   scroll-behavior: smooth;
   font-family: "uber", sans-serif;
 }
-html {
-  font-size: 60%;
-  overflow-x: hidden;
-}
 :root {
   --primary-color: #ff00af;
   --second-color: #ffcc00;
@@ -19,13 +17,8 @@ html {
   --fourth-color: #0000ff;
   --text-color: #ffffff;
   --bg-color: #000000;
-  --second-bg-color: #001005;
+  --second-bg-color: #021e0b;
 }
-/* .dark-theme{
-  --primary-color: #000000;
-  --secondary-color: #fff;
-}
-*/
 
 html{
   font-size: 60%;
@@ -34,19 +27,20 @@ html{
 body{
   background: #000000;
   color: var(--text-color);
+  font-family: "Poppins", sans-serif;
 }
 .header{
-  position: fixed;
-  width: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  display: flex;
   padding: 15px 10%;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px var(--second-bg-color), 0 0 15px var(--second-bg-color);
   backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 1000;
 }
 
@@ -86,21 +80,22 @@ span{
     color: transparent;
   border-bottom: 3.5px solid var(--primary-color);
 }
-.gradient-btn{
+.hire-Btn{
+  border: none;
+  text-wrap: nowrap;
   font-size: 1.8rem;
   font-weight: bold;
-  padding: 1%;
+  padding: 1.2rem;
+  letter-spacing: 1px;
   border-radius: 3.5rem;
   color: var(--text-color);
+  border: 3px solid var(--primary-color);
   background: linear-gradient(
     270deg, #ffcc00 10%, #ff00af 100%);
     cursor: pointer;
-    letter-spacing: 1px;
     transition: 0.3s ease-in-out;
-    border: none;
-    text-wrap: nowrap;
 }
-.gradient-btn:hover{
+.hire-Btn:hover{
   transform: scale(1.05);
   background: linear-gradient(270deg, #ffcc00 10%,#ff00af 100%);
   box-shadow: 0 0 30px var(--primary-color), 0 0 25px var(--second-color);
@@ -245,7 +240,6 @@ section{
   background: linear-gradient(
     270deg, #ffcc00 10%, #ff00af 100%);
 }
-
 .btn-group a:nth-of-type(2){
   background-color: transparent;
   color: var(--text-color);
@@ -259,10 +253,17 @@ section{
 }
 /* Home Section Ended */
 
-
 /* Hamburger Menu Design started */
-
-
+#hamburger{
+  display: none;
+  font-size: 3rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2.5px solid var(--primary-color);
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+}
 /* Hamburger Menu Design Ended */
 
 
@@ -330,30 +331,43 @@ section{
   text-decoration: none;
   font-weight: 450;
 }
-.about-content .btn{
-  margin: 1.5rem 0;
+.about-Btn{
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10rem;
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
+.about-Btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-color), 0 0 20px var(--second-color);
+}
+
 .bottom-bar{
   width: 960px;
-  height: 5px;
+  height: 6px;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 2px solid var(--primary-color);
+  border: 2.5px solid var(--primary-color);
   text-align: center;
   margin-top: 70px;
 }
 .bottom-bar:hover{
-  border: 2px solid var(--second-color);
+  border: 2.5px solid var(--second-color);
 }
 /* About Section Ended */
 
 
-
-
-
 /* Scroll Bar Section Started*/
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 12px;
+  max-height: 50px;
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 10px;
@@ -363,9 +377,6 @@ section{
   background: var(--second-bg-color);
 }
 /* Scroll Bar Section Ended*/
-
-
-
 
 
 /* Education Section Started  */
@@ -451,12 +462,28 @@ section{
   font-size: 1.8rem;
   color: var(--text-color);
 }
-.education-content .read-more{
+.education-Buttons{
   align-items: left;
   text-align: left;
-  margin-left: 75%;
+  margin-left: 70%;
   gap: 3rem;
-
+}
+.education-Btn{
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10rem;
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.education-Btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-color), 0 0 20px var(--second-color);
 }
 /* Education Section Ended  */
 
@@ -1448,7 +1475,6 @@ section{
   font-size: 1.2rem;
 }
 
-
 .ai-heading{
   margin-top: 1%;
   font-size: 2.8rem;
@@ -1494,9 +1520,6 @@ section{
   font-size: 1.2rem;
 }
 /* Skills Section Ended  */
-
-
-
 
 
 /* Project Section Started */
@@ -1594,30 +1617,44 @@ section{
   margin-left: 1rem;
   border-radius: 15px;
   background: transparent;
-  border: 2px solid var(--primary-color);
+  border: 2.5px solid var(--primary-color);
   text-align: center;
   align-content: center;
   gap: 0.5rem;
 }
 .project-tools p:hover{
-  border: 2px solid var(--second-color);
+  border: 2.5px solid var(--second-color);
   background: var(--fourth-color);
 }
-
 .project-card h4{
   text-align: left;
   margin-left: 1.5rem;
   font-size: 1.3rem;
 }
-
 .review-button{
   display: flex;
-  gap: 1.5rem;
-  margin-left: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.project-Btn{
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10rem;
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.project-Btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-color), 0 0 20px var(--second-color);
 }
 /* Project Section Ended */
-
-
 
 
 /* Experience Section Started  */
@@ -2065,7 +2102,23 @@ textarea.input{
 .submit-btn{
   padding-top: 25%;
   padding-left: 10%;
-
+}
+.contact-Btn{
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10rem;
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.contact-Btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-color), 0 0 20px var(--second-color);
 }
 /* Contact Section Ended */
 
@@ -2142,8 +2195,10 @@ textarea.input{
 }
 /* Footer Section Ended */
 
-
-
 /* Responsive Design Section Started */
-
+@media(max-width: 1280px){
+  #hamburger{
+    display: block;
+  }
+}
 /* Responsive Design Section Ended */
