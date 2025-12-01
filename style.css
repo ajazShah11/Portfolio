@@ -254,15 +254,49 @@ section{
 /* Home Section Ended */
 
 /* Hamburger Menu Design started */
-#hamburger{
-  display: none;
-  font-size: 3rem;
-  padding: 0.6rem;
-  border-radius: 5px;
-  cursor: pointer;
-  border: 2.5px solid var(--primary-color);
-  background: linear-gradient(
-    270deg, #ffcc00 10%, #ff00af 100%);
+.hamburger{
+	display: inline-block;
+	cursor: pointer;
+	padding: 15px;
+  border-radius: 50px;
+	border: 2px solid var(--primary-color);
+}
+.hamburger .hamburgerIcon{
+	height: 2px;
+	width: 20px;
+	background-color: #ffffff;
+	position: relative;
+	transition: .5s ease all;
+}
+.hamburger .hamburgerIcon::before,
+.hamburger .hamburgerIcon::after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 20px;
+	background-color: rgb(255, 255, 255);
+	transition: .5s ease all;
+}
+.hamburger .hamburgerIcon::before {
+	top: -5px;
+	left: 0;
+}
+.hamburger .hamburgerIcon::after {
+	bottom: -5px;
+	left: 0;
+}
+.hamburger.close .hamburgerIcon::before {
+	top: 0px;
+	transform: rotate(45deg);
+	left: 0;
+}
+.hamburger.close .hamburgerIcon::after {
+	top: 0px;
+	transform: rotate(-45deg);
+	left: 0;
+}
+.hamburger.close .hamburgerIcon{
+	background-color: transparent;
 }
 /* Hamburger Menu Design Ended */
 
