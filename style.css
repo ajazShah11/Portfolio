@@ -80,7 +80,7 @@ span{
     color: transparent;
   border-bottom: 3.5px solid var(--primary-color);
 }
-.hire-Btn{
+.hireBtn{
   border: none;
   text-wrap: nowrap;
   font-size: 1.8rem;
@@ -95,7 +95,7 @@ span{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-.hire-Btn:hover{
+.hireBtn:hover{
   transform: scale(1.05);
   background: linear-gradient(270deg, #ffcc00 10%,#ff00af 100%);
   box-shadow: 0 0 30px var(--primary-color), 0 0 25px var(--second-color);
@@ -320,10 +320,13 @@ section{
 }
 .about-content span{
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 750;
   text-align: left;
+  /* color: var(--text-color); */
+  /* background: linear-gradient( */
+    /* 270deg, #ff00af 50%, #ffcc00 100%); */
 }
-.about-content h6{
+.about-content h2{
   font-size: 2rem;
   margin: 1rem 0;
   color: var(--text-color);
@@ -2203,37 +2206,77 @@ textarea.input{
 @media (max-width: 768px) {
 
     .navbar{
-      display: inline-flex;
-      position: absolute;
-      margin-top: 75%;
-      right: -750px;
-      width: 100%;
-      height: 350px;
-      border-radius: 15px;
-      border: 2px solid var(--primary-color);
-      background: var(--bg-color);
+      width: 300px;
+      height: 320px;
+      display: flex;
       flex-direction: column;
-      padding: 20px;
-      gap: 20px;
-      transition: right 0.3s ease;
+      position: absolute;
       text-align: center;
       align-items: center;
+      gap: 1.5rem;
+      margin-top: 70%;
+      padding: 3rem;
+      right: -950px;
+      border-radius: 5px;
+      border: 2px solid var(--second-color);
+      box-shadow: 0 0 10px var(--primary-color), 0 0 10px var(--second-color);
+      background: var(--bg-color);
+      transition: right 0.3s ease;
     }
     .navbar.active {
         right: 0;
     }
-
     .menu-icons {
         display: block;
     }
-
     #openMenu {
         display: block;
     }
-
     #closeMenu {
         display: none;
     }
+    .hireBtn{
+      display: block;
+      margin-left: 40%;
+    }
+
+    .home{
+      margin: 1rem 0;
+      gap: 0.5rem;
+      flex-direction: column-reverse;
+    }
+    .home-content{
+      align-items: center;
+      text-align: center;
+    }
+    .home-vd video{
+      width: 56vw;
+    }
+
+    .about .about-container{
+      text-align: center;
+      flex-direction: column-reverse;
+    }
+    .about-content span{
+      text-align: left;
+      margin-right: 62%;
+      gap: 0.5rem;
+    }
+    .about-content h2{
+      margin-right: 40%;
+    }
+    .about-content p{
+      text-align: center;
+      width: 100%;
+    }
+    .about-Btn{
+      margin-right: 65%;
+    }
+
+    .bottom-bar{
+      width: 100%;
+    }
+
 }
 
 /* Responsive Design Section Ended */
