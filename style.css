@@ -542,33 +542,6 @@ section{
   border: 2px solid var(--second-color);
   transform: scale(1.05);
 }
-.technologiesBtn{
-  display: flex;
-  position: relative;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin: 3rem;
-  gap: 3rem;
-}
-.technologiesBtn button{
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 8px 10px;
-  text-align: center;
-  align-content: center;
-  color: var(--text-color);
-  background: var(--bg-color);
-  border-radius: 50px;
-  border: 2px solid var(--primary-color);
-  cursor: pointer;
-}
-.technologiesBtn button:hover{
-  border: 2px solid var(--second-color);
-  transform: scale(1.1);
-  background: linear-gradient(
-    270deg, #ffcc00 10%, #ff00af 100%);
-}
 .programming-heading{
   width: 350px;
   display: flex;
@@ -617,7 +590,7 @@ section{
   display: flex;
   position: relative;
   width: calc(150% - 130px);
-  height: auto;
+  max-height: auto;
   padding: 1rem;
   right: 18%;
   place-items: center;
@@ -628,14 +601,18 @@ section{
   border: 2px solid var(--primary-color);
   background-color: var(--bg-color);
 }
-.programming-content{
-  width: 500px;
+.programming-wrapper{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.programming-box{
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .programming-content{
   width: 400px;
@@ -644,6 +621,7 @@ section{
   position: relative;
   align-items: center;
   justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
   margin: 6px;
   border-radius: 8px;
@@ -651,16 +629,130 @@ section{
   box-shadow: 0 0 5px var(--primary-color), 0 0 5px var(--second-color);
   background-color: var(--second-bg-color);
 }
-.programming-image img{
+.programming-image{
   height: 100px;
   width: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  margin-bottom: 10%;
   border-radius: 10px;
   border: 2px solid var(--primary-color);
   background-color: var(--bg-color);
-  object-fit: cover;
-  overflow: hidden;
-  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
+.programming-image img{
+  height: 80px;
+  width: 80px;
+}
+.language-name{
+  display: flex;
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 8%;
+}
+.language-name h1{
+  font-size: 3rem;
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+/* Progress Section Started */
+.progress-container{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  border-radius: 15px;
+}
+.progress-text h2{
+  margin-top: 18%;
+  padding-left: 120px;
+  font-size: 1.5rem;
+  color: var;
+}
+.progress-text span{
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-align: right;
+  margin-left: 75px;
+}
+.progress-wrap{
+  width: 100%;
+  height: 100vh;
+  display: flexbox;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.progress-bar{
+  width: 270px;
+  height: 12px;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 50px;
+  background: var(--bg-color);
+}
+.progress-bar div{
+  width: 0%;
+  height: 12px;
+  border-radius: 50px;
+}
+.progress-bar div span{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8px;
+  margin-right: -20px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+.project-done{
+  display: flex;
+  position: absolute;
+}
+.project-done h1{
+  margin-top: 15px;
+  padding-left: 120px;
+
+} 
+
+.project-done span:hover{
+  background: linear-gradient(
+    270deg, #ffcc00 10%, #ff00af 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.c{
+  animation: c 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.c span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes c{
+  100%{
+      width: 85%;
+  }
+}
+
+
+
 .development-heading{
 width: 220px;
   display: flex;
