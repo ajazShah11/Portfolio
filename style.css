@@ -267,7 +267,7 @@ section{
   cursor: pointer;
 }
 
-.menu-icons i {
+.menu-icons i{
   font-size: 28px;
   display: none; 
 }
@@ -662,7 +662,6 @@ section{
   color: transparent;
 }
 
-
 /* Progress Section Started */
 .progress-container{
   width: 400px;
@@ -734,8 +733,6 @@ section{
   -webkit-background-clip: text;
   color: transparent;
 }
-
-
 .c{
   animation: c 1s linear forwards;
   background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
@@ -747,14 +744,89 @@ section{
 }
 @keyframes c{
   100%{
+      width: 75%;
+  }
+}
+
+.java{
+  animation: java 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.java span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes java{
+  100%{
+      width: 75%;
+  }
+}
+
+.sql{
+  animation: sql 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.sql span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes sql{
+  100%{
+      width: 65%;
+  }
+}
+
+.js{
+  animation: js 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.js span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes js{
+  100%{
       width: 85%;
   }
 }
 
+.python{
+  animation: python 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.python span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes python{
+  100%{
+      width: 75%;
+  }
+}
+
+.go{
+  animation: go 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.go span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes go{
+  100%{
+      width: 50%;
+  }
+}
 
 
+/* development section started */
 .development-heading{
-width: 220px;
+  width: 250px;
   display: flex;
   position: relative;
   margin: 1rem;
@@ -797,97 +869,7 @@ width: 220px;
   transform: scale(1.1);
 }
 
-
-
-
-/* Progress Section Started */
-/* .progress-container{ */
-  /* display: flex; */
-  /* position: absolute; */
-/* } */
-/* .progress-text h2{ */
-  /* margin-top: 23px; */
-  /* padding-left: 90px; */
-  /* font-size: 1.5rem; */
-  /* color: var(--text-color); */
-/* } */
-/* .progress-text span{ */
-  /* font-size: 1.2rem; */
-  /* color: var(--text-color); */
-  /* text-align: right; */
-  /* margin-left: 75px; */
-/* } */
-/* .progress-wrap{ */
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* display: flexbox; */
-  /* position: absolute; */
-  /* align-items: center; */
-  /* justify-content: center; */
-/* } */
-/* .progress-bar{ */
-  /* width: 275px; */
-  /* height: 12px; */
-  /* margin-left: 90px; */
-  /* margin-top: 8px; */
-  /* border-radius: 50px; */
-  /* background: var(--bg-color); */
-/* } */
-/* .progress-bar div{ */
-  /* width: 0%; */
-  /* height: 12px; */
-  /* border-radius: 50px; */
-/* } */
-/* .progress-bar div span{ */
-  /* height: 30px; */
-  /* width: 30px; */
-  /* display: flex; */
-  /* float: right; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* margin-top: -8px; */
-  /* margin-right: -20px; */
-  /* border-radius: 50%; */
-  /* font-size: 12px; */
-  /* font-weight: bold; */
-  /* color: #fff; */
-/* } */
-/* .project-done{ */
-  /* display: flex; */
-  /* position: absolute; */
-/* } */
-/* .project-done h1{ */
-  /* margin-top: 70px; */
-  /* padding-left: 100px; */
-/* }  */
-/* .project-done span{ */
-  /* font-size: 2.5rem; */
-  /* text-align: center; */
-  /* align-content: center; */
-  /* color: var(--text-color); */
-/* } */
-/* .project-done span:hover{ */
-  /* background: linear-gradient( */
-    /* 270deg, #ffcc00 10%, #ff00af 100%); */
-  /* -webkit-background-clip: text; */
-  /* color: transparent; */
-/* } */
-
-/* .c{ */
-  /* animation: c 1s linear forwards; */
-  /* background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%); */
-/* } */
-/* .c span{ */
-  /* background: #ff00af; */
-  /* border: 1px solid #ff00af; */
-  /* box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af; */
-/* } */
-/* @keyframes c{ */
-  /* 100%{ */
-      /* width: 85%; */
-  /* } */
-/* } */
-
+/* development section ended */
 
 
 
@@ -1539,17 +1521,6 @@ textarea.input{
   text-align: center;
   margin-top: 20px;
 }
-/* .buy-coffee img{
-  height: 4rem;
-  width: 4rem;
-  margin-left: 5rem;
-  margin-top: 5px;
-  border-radius: 50px;
-  border: 2px solid var(--primary-color);
-}
-.buy-coffee{
-  margin-left: 95rem;
-} */
 
 .border-content i{
   font-size: 1.5rem;
@@ -1569,20 +1540,20 @@ textarea.input{
 /* Responsive Design Section Started */
 @media (max-width: 768px) {
     .navbar{
-      width: 300px;
-      height: 320px;
+      width: 250px;
+      height: 300px;
       display: flex;
       flex-direction: column;
       position: absolute;
       text-align: center;
       align-items: center;
-      gap: 1.5rem;
-      margin-top: 70%;
+      gap: 1rem;
+      margin-top: 100%;
       padding: 3rem;
       right: -950px;
-      border-radius: 5px;
-      border: 2px solid var(--second-color);
-      box-shadow: 0 0 10px var(--primary-color), 0 0 10px var(--second-color);
+      border-radius: 15px;
+      border: 2px solid var(--primary-color);
+      box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--second-color);
       background: var(--bg-color);
       transition: right 0.3s ease;
     }
@@ -1599,8 +1570,7 @@ textarea.input{
         display: none;
     }
     .hireBtn{
-      display: block;
-      margin-left: 40%;
+      display: none;
     }
 
     .home{
@@ -1620,14 +1590,22 @@ textarea.input{
       width: 56vw;
     }
 
+    /* about section responsive design */
+    .about-heading{
+      font-size: 6rem;
+    }
     .about .about-container{
       text-align: center;
       flex-direction: column-reverse;
     }
     .about-content p{
-      text-align: left;
+      text-align: center;
       margin-left: 5%;
-      width: 450px;
+      width: 350px;
+    }
+    .about-img img{
+      height: 300px;
+      width: 300px;
     }
 
     .bottom-bar{
@@ -1640,6 +1618,82 @@ textarea.input{
     .education-image img{
       width: 250px;
     }
+    /* about section responsive design */
+
+
+    /* Skills Section Responsive Design */
+    .skills-text h3{
+      width: 300px;
+      font-size: 1.5rem;
+    }
+    .programming-heading{
+      width: 200px;
+      left: -30px;
+    }
+    .programming-heading h2 span{
+      font-size: 1.3rem;
+    }
+    .programming-container{
+      right: 8%;
+      width: calc(130% - 20px);
+    }
+    .programming-wrapper{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .programming-content{
+      width: 330px;
+      height: 130px;
+      margin: 0.5rem 0;
+    }
+    .programming-image{
+      height: 80px;
+      width: 80px;
+    }
+    .programming-image img{
+      height: 60px;
+      width: 60px;
+    }
+
+    .progress-text h2{
+      padding-left: 100px;
+      font-size: 1.3rem;
+    }
+    .progress-bar{
+      width: 220px;
+      margin-left: 25%;
+    }
+
+    .project-done h1{
+      font-size: 1.8rem;
+      margin-top: 20px;
+      padding-left: 100px;
+    }
+
+
+
+    .development-heading{
+      width: 200px;
+      left: -30px;
+    }
+    /* skills section responsive design ended*/
+
+    /* project section responsive design started*/
+    .project-text h3{
+      font-size: 1.3rem;
+    }
+    .project-box{
+      grid-template-columns: repeat(1, 1fr);
+      padding: 2rem;
+      gap: 2rem;
+    }
+    .project-card{
+      width: 350px;
+      height: 510px;
+    }
+    .project-tools{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    /* project section responsive design ended*/
 
 }
 
