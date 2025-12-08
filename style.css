@@ -256,7 +256,7 @@ section{
 /* Hamburger Menu Design started */
 .menu-icons {
   height: 45px;
-  width: 50px;
+  width: 45px;
   display: none; 
   padding: 1rem;
   border-radius: 5px;
@@ -542,6 +542,7 @@ section{
   border: 2px solid var(--second-color);
   transform: scale(1.05);
 }
+
 .programming-heading{
   width: 350px;
   display: flex;
@@ -652,7 +653,7 @@ section{
   display: flex;
   position: absolute;
   margin-top: 27%;
-  margin-left: 8%;
+  margin-left: 3%;
 }
 .language-name h1{
   font-size: 3rem;
@@ -824,13 +825,14 @@ section{
 }
 
 
+
 /* development section started */
 .development-heading{
   width: 250px;
   display: flex;
   position: relative;
   margin: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   left: -170px;
   padding: 4px;
   align-items: center;
@@ -868,6 +870,8 @@ section{
   background: var(--bg-color);
   transform: scale(1.1);
 }
+
+
 
 /* development section ended */
 
@@ -1669,8 +1673,6 @@ textarea.input{
       padding-left: 100px;
     }
 
-
-
     .development-heading{
       width: 200px;
       left: -30px;
@@ -1694,6 +1696,29 @@ textarea.input{
       grid-template-columns: repeat(3, 1fr);
     }
     /* project section responsive design ended*/
+
+    /* Experience Section Responsive Design started*/
+    .experience-heading{
+      font-size: 5rem;
+    }
+    /* Experience Section Responsive Design started*/ 
+
+
+    /* Contact Section Responsive Design  started*/
+    .contact-heading{
+      font-size: 3.5rem;
+    }
+    /* Contact Section Responsive Design  ended*/
+
+
+    /* Footer Section Responsive Design  started*/ 
+    .footer-content p{
+      font-size: 1.3rem;
+    }
+    .footer-content span{
+      font-size: 1.3rem;
+    }
+    /* Footer Section Responsive Design  ended*/
 
 }
 
