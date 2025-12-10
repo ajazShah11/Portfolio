@@ -258,11 +258,11 @@ section{
 
 /* Hamburger Menu Design started */
 .menu-icons {
-  height: 45px;
-  width: 45px;
-  display: none; 
-  padding: 1rem;
-  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: none;
+  padding: 0.8rem;
+  border-radius: 50px;
   color: var(--text-color);
   border: 2.5px solid var(--primary-color);
   background: linear-gradient(
@@ -271,7 +271,7 @@ section{
 }
 
 .menu-icons i{
-  font-size: 28px;
+  font-size: 2.5rem;
   display: none; 
 }
 /* Hamburger Menu Design Ended */
@@ -809,7 +809,7 @@ section{
 }
 @keyframes python{
   100%{
-      width: 75%;
+      width: 85%;
   }
 }
 
@@ -824,7 +824,7 @@ section{
 }
 @keyframes go{
   100%{
-      width: 50%;
+      width: 45%;
   }
 }
 
@@ -903,6 +903,21 @@ section{
   }
 }
 
+.systemdesign{
+  animation: systemdesign 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.systemdesign span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes systemdesign{
+  100%{
+      width: 50%;
+  }
+}
+
 .dbms{
   animation: dbms 1s linear forwards;
   background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
@@ -917,7 +932,39 @@ section{
       width: 65%;
   }
 }
+
+.os{
+  animation: os 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.os span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes os{
+  100%{
+      width: 65%;
+  }
+}
+
+.cn{
+  animation: cn 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.cn span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes cn{
+  100%{
+      width: 65%;
+  }
+}
+
 /* Computer fundamentals ended */
+
 
 /* development section started */
 .development-heading{
@@ -964,8 +1011,306 @@ section{
   transform: scale(1.1);
 }
 
+.html{
+  animation: html 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.html span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes html{
+  100%{
+      width: 85%;
+  }
+}
+
+.bootstrap{
+  animation: bootstrap 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.bootstrap span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes bootstrap{
+  100%{
+      width: 85%;
+  }
+}
+
+.css{
+  animation: css 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.css span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes css{
+  100%{
+      width: 85%;
+  }
+}
+
+.react{
+  animation: react 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.react span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes react{
+  100%{
+      width: 85%;
+  }
+}
+
+.node{
+  animation: node 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.node span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes node{
+  100%{
+      width: 85%;
+  }
+}
 
 
+.express{
+  animation: express 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.express span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes express{
+  100%{
+      width: 85%;
+  }
+}
+
+.mongodb{
+  animation: mongodb 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.mongodb span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes mongodb{
+  100%{
+      width: 85%;
+  }
+}
+
+.typescript{
+  animation: typescript 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.typescript span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes typescript{
+  100%{
+      width: 75%;
+  }
+}
+
+.nextjs{
+  animation: nextjs 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.nextjs span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes nextjs{
+  100%{
+      width: 75%;
+  }
+}
+
+.git{
+  animation: git 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.git span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes git{
+  100%{
+      width: 90%;
+  }
+}
+
+.native{
+  animation: native 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.native span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes native{
+  100%{
+      width: 70%;
+  }
+}
+
+.docker{
+  animation: native 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.docker span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes docker{
+  100%{
+      width: 80%;
+  }
+}
+
+.aws{
+  animation: aws 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.aws span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes aws{
+  100%{
+      width: 80%;
+  }
+}
+
+.kubernetes{
+  animation: kubernetes 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.kubernetes span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes kubernetes{
+  100%{
+      width: 80%;
+  }
+}
+
+.kafka{
+  animation: kafka 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.kafka span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes kafka{
+  100%{
+      width: 80%;
+  }
+}
+
+.cicd{
+  animation: cicd 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.cicd span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes cicd{
+  100%{
+      width: 80%;
+  }
+}
+
+.graphql{
+  animation: graphql 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.graphql span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes graphql{
+  100%{
+      width: 85%;
+  }
+}
+
+.figma{
+  animation: figma 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.figma span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes figma{
+  100%{
+      width: 75%;
+  }
+}
+
+.photoshop{
+  animation: photoshop 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.photoshop span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes photoshop{
+  100%{
+      width: 75%;
+  }
+}
+
+.sketch{
+  animation: sketch 1s linear forwards;
+  background: linear-gradient(270deg, #ffcc00 10%, #ff00af 100%);
+}
+.sketch span{
+  background: #ff00af;
+  border: 1px solid #ff00af;
+  box-shadow: 0 0 10px #ff00af, 0 0 15px #ff00af, 0 0 20px #ff00af;
+}
+@keyframes sketch{
+  100%{
+      width: 75%;
+  }
+}
 /* development section ended */
 
 
@@ -1792,6 +2137,9 @@ textarea.input{
     .project-card{
       width: 350px;
       height: 510px;
+    }
+    .progress-text span{
+      font-size: 0.8rem;
     }
     .project-tools{
       grid-template-columns: repeat(3, 1fr);
