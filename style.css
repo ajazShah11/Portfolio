@@ -1348,11 +1348,11 @@ section{
   background: var(--bg-color);
   color: #fff;
   border-radius: 50px;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 .project-text:hover{
   transform: scale(1.05);
-  border: 1px solid var(--second-color);
+  border: 2px solid var(--second-color);
 }
 
 .project-box{
@@ -1418,8 +1418,7 @@ section{
   gap: 0.5rem;
 }
 .project-tools p:hover{
-  border: 2.5px solid var(--second-color);
-  background: var(--fourth-color);
+  border: 2.5px solid var(--fourth-color);
 }
 .project-card h4{
   text-align: left;
@@ -1483,11 +1482,11 @@ section{
   background: var(--bg-color);
   color: #fff;
   border-radius: 50px;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 .experience-text h2:hover{
   transform: scale(1.05);
-  border: 1px solid var(--second-color);
+  border: 2px solid var(--second-color);
 }
 .timeline-container{
   margin: 50px;
@@ -2146,6 +2145,14 @@ textarea.input{
     /* Experience Section Responsive Design started*/
     .experience-heading{
       font-size: 5rem;
+    }
+    .experience-text h2{
+      font-size: 1rem;
+    }
+    .timeline-container{
+      display: block;
+      position: relative;
+      justify-content: left;
     }
     /* Experience Section Responsive Design started*/ 
 
